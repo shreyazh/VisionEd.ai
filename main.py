@@ -85,8 +85,6 @@ if st.session_state.page == "Home":
         
 
 if st.session_state.page == "Upload Image":
-    st.markdown("<div class='navbar'>VisionEd.AI - AI Image Based Educator</div>", unsafe_allow_html=True)
-    st.title("📸 AI-Powered VisionEd.AI Explainer")
     uploaded_image = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
     
     if uploaded_image:
