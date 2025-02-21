@@ -1,3 +1,5 @@
+# VisualEd.ai
+
 ## Inspiration  
 We were inspired to create VisionEd.ai to empower users with a tool that not only describes images but also provides personalized audio explanations, enhancing accessibility and independence.
 
