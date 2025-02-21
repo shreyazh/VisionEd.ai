@@ -75,9 +75,9 @@ if "page" not in st.session_state:
 
 if st.session_state.page == "Home":
     st.markdown("<div class='navbar'>VisionEd.AI - AI Image Based Educator</div>", unsafe_allow_html=True)
-    st.title("🔍 Welcome to VisualEd")
+    st.title("🔍 Welcome to VisionEd.AI")
     #st.image("14086516.jpg", width=100)
-    st.markdown("### AI-powered Image Analysis VisualEd Technology!")
+    st.markdown("### AI-powered Image Analysis VisionEd.AI Technology!")
     st.markdown("#### The new revolutionary apllication that allows users tackle challenges but also understand the images they want to know about with the availabilty of audio answers, it gives them freedom to have it completely personalised for them.")
     st.markdown('#### Created by Shreyash Srivastva for fellow Humans.')
     if st.button("Get Started 🚀"):
@@ -86,7 +86,7 @@ if st.session_state.page == "Home":
 
 if st.session_state.page == "Upload Image":
     st.markdown("<div class='navbar'>VisionEd.AI - AI Image Based Educator</div>", unsafe_allow_html=True)
-    st.title("📸 AI-Powered VisualEd Explainer")
+    st.title("📸 AI-Powered VisionEd.AI Explainer")
     uploaded_image = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
     
     if uploaded_image:
